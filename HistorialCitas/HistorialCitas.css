@@ -1,0 +1,30 @@
+#encabezado {
+    background-color: #b6d1d4;
+    color: #00838F;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 110px;
+}
+#enviarMensaje {
+    margin-left: 10%;
+}
+.rectangulo {
+    background-color: #b6d1d4;
+    width: 80%;
+    margin-bottom: 8%;
+}
+
+.imgMensaje {
+    width: 75px;
+    height: 62px;
+    margin-top: 1%;
+    text-align: center;
+}
+.body {
+    background-color:rgb(246, 246, 246) 
+}
+
+.link {
+    color: #00838F;
+}

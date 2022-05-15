@@ -1,0 +1,46 @@
+#rectanguloEncabezado {
+    width: 100%;
+    height: 30%;
+    background-color: #b6d1d4;
+    color: #00838F;
+    
+}
+
+.rectangulosCuerpo {
+    height: 550px;
+    margin-bottom: 5%;
+    margin-top: 50px;
+    margin: 5%;
+    background-color: #b6d1d4;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.pregunta {
+    margin-top: 30px;
+    border: 2px solid #555;
+    margin: 20px;
+    height: fit-content;
+}
+
+.imgPaciente {
+    max-width: 70px;
+    max-height: 70px;
+    margin-top: 25px;
+}
+
+.btnResponder {
+    width: 60%;
+}
+
+.body {
+    background-color:rgb(246, 246, 246) 
+}
+
+.nombres {
+    margin-top:40px; 
+}
+
+.link {
+    color: #00838F;
+}

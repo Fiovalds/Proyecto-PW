@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./BuscarMedico.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha385-AYmEC3Yw5cVb3ZcuHt0A93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Buscar Medico</title>
+</head>
+<body>
+<body class="container-fluid body">
+    <!--ENCABEZADO-->
+    <div class="card" id="rectanguloEncabezado">
+        <div class="row">
+            <div class="col">
+                <div class="fs-5 ms-4">
+                    <a class="link" href="#">Principal</a>
+                    /
+                    <a class="link" href="#">Buscar medico</a>
+                </div>
+                <div class="mt-2 mb-2 ms-4 fw-bold fs-1" id="divNombreEmpresa">
+                    EMPRESA XYZ
+                </div>
+            </div>
+            <div class="col" id="nombrePaciente">
+                NOMBRE DEL PACIENTE
+            </div>
+            <div class="circulo"></div>
+        </div>
+    </div>
+    <!--CUERPO-->
+    <div class="row">
+        <!--RECTANGULO ESPECIALIDADES-->
+        <div class="col-lg">
+            <div id="rectanguloEspecialidad" class="rectangulosCuerpo fs-4">
+                <div class="m-2">Seleccione especialidad:</div>
+                <div class="divBtnCentrado">
+                    <button class="btn btn-primary">Buscar...</button>
+                </div>
+                <div class="mt-5">
+                    <div class="form-check ms-5">
+                        <input class="form-check-input" type="checkbox" id="check1" checked>
+                        <label for="check1" class="form-check-label">
+                            Todos
+                        </label>
+                    </div>
+                    <div class="form-check ms-5">
+                        <input class="form-check-input" type="checkbox" id="check2">
+                        <label for="check2" class="form-check-label">
+                            Especialidad 1
+                        </label>
+                    </div>
+                    <div class="form-check ms-5">
+                        <input class="form-check-input" type="checkbox" id="check3">
+                        <label for="check3" class="form-check-label">
+                            Especialidad 2
+                        </label>
+                    </div>
+                    <div class="form-check ms-5">
+                        <input class="form-check-input" type="checkbox" id="check4">
+                        <label for="check4" class="form-check-label">
+                            Especialidad 3
+                        </label>
+                    </div>
+                    <div class="form-check ms-5">
+                        <input class="form-check-input" type="checkbox" id="check5">
+                        <label for="check5" class="form-check-label">
+                            Especialidad 4
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--RECTANGULO DOCTORES-->
+        <div class="col-lg-9">
+            <div id="rectanguloDoctores" class="rectangulosCuerpo">
+                <div id="divTablaMedicos">
+                    <!--FILA DE 3 DOCTORES-->
+                    <div class="row ms-4">
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FILA DE 3 DOCTORES-->
+                    <div class="row ms-4">
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FILA DE 3 DOCTORES-->
+                    <div class="row ms-4">
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="rectangulosDoctor">
+                                <div class="divImgMedico text-center">
+                                    <img class="imgMedico" src="./imagenes/doctor.png" alt="Doctor">
+                                    <span class="fa fa-star" id="estrella1"></span>
+                                </div>
+                                <div class="text-center">
+                                    Nombre Doctor
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-info m-1">Especialidad</button>
+                                </div>
+                                <div class="divBtnCentrado">
+                                    <button class="btn btn-danger m-1">Ver horarios</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./BuscarMedico.js"></script>
+</body>
+</body>
+</html>
