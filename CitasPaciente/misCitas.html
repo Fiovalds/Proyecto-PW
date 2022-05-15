@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Citas</title>
+
+    <link rel="stylesheet" href="/CitasPaciente/miscitas.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body id="fondo">
+    <div class="mt-2">
+        <div class="card">
+            <div class="card-header" id="encabezadoCita">
+                <h4>
+                    <div>
+                        <a href="#">Principal</a>
+                        /
+                        <a href="#">Mis citas</a>
+                    </div>
+                </h4>
+                <h1 id="LetraCita">MIS CITAS</h1>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row mt-5">
+                <div class="col-sm-4"> 
+                    <div class="card" id="cuadroLleno">
+                        <label class="form-label mt-3" id="Label1">Selecciona Paciente:</label>
+                    
+                        <div class="form-check" id="checkbox">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label mb-4">
+                          APELLIDOS, NOMBRES
+                        </label>
+                      </div>
+                    </div>   
+                </div>
+
+                <div class="col-sm-8">
+                    <div class="row mt-2">
+                        <div class="col-sm-6" > 
+                            <label class="form-label" id="Label2">Buscar</label>
+                          <input type="text" class="form-control" id="cuadroLleno">
+                        </div>
+
+                        <div class="col-sm-3"> 
+                            <label class="form-label" id="Ocultar">M</label>
+                          <input type="text" class="form-control" id="Ocultar"  disabled>
+                        </div>
+
+                        <div class="col-sm-3" id="mostrar" > 
+                            <label class="form-label" id="mostrar 1">Mostrar</label>
+                          <input type="number" class="form-control" id="cuadroLleno" min="0">
+                        </div>
+
+                      </div>
+
+                    <div class="card-body table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>M&eacutedico</th>
+                                        <th>Paciente</th>
+                                        <th>Fecha Programada</th>
+                                        <th>Fecha Llegada</th>
+                                        <th>Especialidad</th>
+                                        <th>&nbsp&nbsp&nbspX</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td>
+                                            <nav>
+                                                Dr. GABRIEL AUGEDA 
+                                            </nav>
+                                            <nav>
+                                                TRAUMATOLOGÍA
+                                            </nav>
+                                      </td>
+                                      <td>GOMEZ TORRES, LUCIA</td>
+                                      <td>
+                                        <nav>
+                                            DD MM YY 
+                                        </nav>
+                                        <nav>
+                                            Hora  
+                                        </nav>
+                                      </td>
+                                      <td>
+                                        <nav>
+                                            DD MM YY 
+                                        </nav>
+                                        <nav>
+                                            Hora  
+                                        </nav>
+                                      </td>
+                                      <td>TRAUMATOLOGÍA</td>
+
+                                      <td>
+                                          <a href="#openModal">Anular</a>  
+                                          <div id="openModal" class="modalDialog">
+                                            <div>
+                                                <div class="card">
+                                                    <div class="card-header mt-4" id="encabezadoCita">
+                                                        <a href="#close" title="Close" class="close">X</a>
+                                                        <h1>¡Advertencia!</h1>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="mt-4" id="modalAdv">
+                                                            ¿Seguro que deseas cancelar su cita? 
+                                                        </div>
+                                                        <div id="modalAdv" class="mt-1">
+                                                            La devolución se verá reflejada en su tarjeta 30 días hábiles cancelada su cita.
+                                                        </div>
+                                                        <div id="Boton">
+                                                            <button id="BotonAceptar" class="mt-5 btn btn--outline-secondary" type="button">
+                                                                <a href="#" id="LetraBoton">Aceptar</a>
+                                                              </button>  
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                  
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                              <nav>
+                                                  Dr. RAUL FERNANDEZ 
+                                              </nav>
+                                              <nav>
+                                                  PEDIATR&IacuteA
+                                              </nav>
+                                        </td>
+                                        <td>GOMEZ TORRES, LUCIA</td>
+                                        <td>
+                                          <nav>
+                                              DD MM YY 
+                                          </nav>
+                                          <nav>
+                                              Hora  
+                                          </nav>
+                                        </td>
+                                        <td>
+                                          <nav>
+                                              DD MM YY 
+                                          </nav>
+                                          <nav>
+                                              Hora  
+                                          </nav>
+                                        </td>
+                                        <td>PEDIATR&IacuteA</td>
+                                        <td>
+                                            <a href="#">Anular</a>
+                                        </td>
+                                      </tr>
+
+                                      <tr>
+                                        <td>
+                                              <nav>
+                                                  Dr. GABRIEL AUGEDA
+                                              </nav>
+                                              <nav>
+                                                  TRAUMATOLOG&IacuteA
+                                              </nav>
+                                        </td>
+                                        <td>GOMEZ TORRES, LUCIA</td>
+                                        <td>
+                                          <nav>
+                                              DD MM YY 
+                                          </nav>
+                                          <nav>
+                                              Hora  
+                                          </nav>
+                                        </td>
+                                        <td>
+                                          <nav>
+                                              DD MM YY 
+                                          </nav>
+                                          <nav>
+                                              Hora  
+                                          </nav>
+                                        </td>
+                                        <td>TRAUMATOLOG&IacuteA</td>
+                                        <td>
+                                            <a href="#">Anular</a>
+                                        </td>
+                                      </tr>
+                                </tbody>
+                            </table>
+
+                            <nav>
+                                <ul class="pagination mt-5">
+                                      <li class="page-item disabled">
+                                          <a class="page-link" href="#" id="cuadroLleno" >Anterior</a>   
+                                      </li>
+                                      <li class="page-item active" >
+                                          <a class="page-link" href="#">1</a>   
+                                      </li>
+                                      <li class="page-item">
+                                          <a class="page-link" id="cuadroLleno"  href="#">Siguiente</a>   
+                                      </li>
+                                </ul>
+                            </nav>
+                    </div>
+                    
+                </div>
+
+              </div>
+    
+</body>
+</html>
