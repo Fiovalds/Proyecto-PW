@@ -26,8 +26,7 @@
 }
 #letra{
     color: #00838f;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 .btn{
     background-color: #00838F;
@@ -43,4 +42,13 @@ a{
 .table{
     background-color: #b6d1d4;
     color: #00838F;   
+}
+h2{
+    font-weight: bold;
+}
+#link-header{
+    color: #00838f;
+}
+#exampleModal{
+    text-align: left;
 }
