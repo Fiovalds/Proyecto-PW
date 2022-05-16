@@ -11,8 +11,22 @@
     <title>PuntuarMedico</title>
 </head>
 <body class="container-fluid body fondo">
+    <div class="card" id="rectanguloEncabezado">
+        <div class="row">
+            <div class="col">
+                <div class="fs-5 ms-4">
+                    <a class="link" href="/inicioMedico/inicioMedico.html">Principal</a>
+                    /
+                    <a class="link" href="/PuntuarMedico/PuntuarMedico.html">Puntuar médico</a>
+                </div>
+                <div class="mt-2 mb-2 ms-4 fw-bold fs-1" id="divNombreEmpresa">
+                    EMPRESA XYZ
+                </div>
+            </div>
+        </div>
+    </div>
     <!--INFO MEDICO-->
-    <div class="row">
+    <div class="row cuerpo">
         <div class="col"></div>
         <div class="col-6">
             <div class="row">
@@ -23,11 +37,11 @@
                 <div class="col-5">
                     <div class="fs-2 fw-bold">Nombre médico</div>
                     <div>
-                        <span class="fs-4">-Especialidad:</span>
+                        <span class="fs-4">Especialidad:</span>
                         &nbsp;
                         <span class="fs-5">#######</span>
                     </div>
-                    <div class="fs-4">-Calificar:</div>
+                    <div class="fs-4">Calificar:</div>
                 </div>
                 <div class="col"></div>
             </div>
@@ -49,7 +63,9 @@
     </div>
     <!--Boton Guardar-->
     <div class="text-center mt-4">
+        <form method="get" action="/BuscarMedico/BuscarMedico.html">
         <button class="btn btn-outline-info">Aceptar</button>
+        </form>
     </div>
     <script src="./PuntuarMedico.js"></script>
 </body>

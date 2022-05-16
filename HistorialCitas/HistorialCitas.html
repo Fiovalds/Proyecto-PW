@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha385-AYmEC3Yw5cVb3ZcuHt0A93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./HistorialCitas.css">
     <title>HistorialCitas</title>
 </head>
@@ -14,9 +15,9 @@
             <div class="card mb-5">
                 <div class="card-header" id="encabezado">
                     <div class="fs-5 ms-2">
-                        <a class="link" href="#">Principal</a>
+                        <a class="link" href="/inicioMedico/inicioMedico.html">Principal</a>
                         /
-                        <a class="link" href="#">Mis citas</a>
+                        <a class="link" href="/HistorialCitas/HistorialCitas.html">Mis citas</a>
                     </div>
                     <div class="mt-2 mb-2 ms-2 fw-bold fs-1">
                         HISTORIAL CITAS
@@ -65,13 +66,13 @@
                                         <tr>
                                           <td>
                                                 <nav>
-                                                    Dr. GABRIEL AUGEDA 
+                                                    Dra. GOMEZ TORRES, LUCIA
                                                 </nav>
                                                 <nav>
-                                                    TRAUMATOLOGÍA
+                                                    NEFROLOGÍA
                                                 </nav>
                                           </td>
-                                          <td>GOMEZ TORRES, LUCIA</td>
+                                          <td>QUISPE AGUILAR, MARTIN</td>
                                           <td>
                                             <nav>
                                                 DD MM YY 
@@ -87,7 +88,55 @@
                                               Lorem ipsum dolor sit amet consectetur adipisicing elit
                                           </td>
                                           <td>
-                                            <input type="image" src="./imagenes/mail.png" class="btn imgMensaje">
+                                            <input type="image" src="./imagenes/estrella.png" class="btn imgMensaje btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                      <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLabel">Puntuar Cita</h5>
+                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="row">
+                                                                        <div class="col"></div>
+                                                                        <div class="col text-end" id="divImgMedico">
+                                                                            <img class="imgMedico" src="./imagenes/813844_people_512x512.png" alt="Foto medico">
+                                                                        </div>
+                                                                        <div class="col-5">
+                                                                            <div class="fs-2 fw-bold">Nombre médico</div>
+                                                                            <div>
+                                                                                <span class="fs-4">Especialidad:</span>
+                                                                                &nbsp;
+                                                                                <span class="fs-5">#######</span>
+                                                                            </div>
+                                                                            <div class="fs-4">Calificar:</div>
+                                                                        </div>
+                                                                        <div class="col"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--ESTRELLAS-->
+                                                            
+                                                            <div class="text-center mt-3 divEstrellas">
+                                                                <span class="fa fa-star" id="estrella1"></span>
+                                                                <span class="fa fa-star" id="estrella2"></span>
+                                                                <span class="fa fa-star" id="estrella3"></span>
+                                                                <span class="fa fa-star" id="estrella4"></span>
+                                                                <span class="fa fa-star" id="estrella5"></span>
+                                                            </div>
+                                                            <!--COMENTARIO-->
+                                                            <div class="text-center mt-4">
+                                                                <textarea placeholder="Añadir comentario (opcional)" id="comentario" cols="50" rows="5"></textarea>
+                                                            </div>
+                                                        <div class="modal-footer">
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                          <button type="button" class="btn btn-primary btnModal">Guardar puntuación</button>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
                                           </td>
                                         </tr>
                                         <tr>
@@ -99,7 +148,7 @@
                                                       TRAUMATOLOGÍA
                                                   </nav>
                                             </td>
-                                            <td>FIGARI LLOSA, FABRIZIO</td>
+                                            <td>QUISPE AGUILAR, MARTIN</td>
                                             <td>
                                               <nav>
                                                   DD MM YY 
@@ -115,19 +164,67 @@
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit
                                             </td>
                                             <td>
-                                                <input type="image" src="./imagenes/mail.png" class="btn imgMensaje">
+                                                <input type="image" src="./imagenes/estrella.png" class="btn imgMensaje btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                      <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLabel">Puntuar Cita</h5>
+                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="row">
+                                                                        <div class="col"></div>
+                                                                        <div class="col text-end" id="divImgMedico">
+                                                                            <img class="imgMedico" src="./imagenes/813844_people_512x512.png" alt="Foto medico">
+                                                                        </div>
+                                                                        <div class="col-5">
+                                                                            <div class="fs-2 fw-bold">Nombre médico</div>
+                                                                            <div>
+                                                                                <span class="fs-4">Especialidad:</span>
+                                                                                &nbsp;
+                                                                                <span class="fs-5">#######</span>
+                                                                            </div>
+                                                                            <div class="fs-4">Calificar:</div>
+                                                                        </div>
+                                                                        <div class="col"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--ESTRELLAS-->
+                                                            
+                                                            <div class="text-center mt-3 divEstrellas">
+                                                                <span class="fa fa-star" id="estrella1"></span>
+                                                                <span class="fa fa-star" id="estrella2"></span>
+                                                                <span class="fa fa-star" id="estrella3"></span>
+                                                                <span class="fa fa-star" id="estrella4"></span>
+                                                                <span class="fa fa-star" id="estrella5"></span>
+                                                            </div>
+                                                            <!--COMENTARIO-->
+                                                            <div class="text-center mt-4">
+                                                                <textarea placeholder="Añadir comentario (opcional)" id="comentario" cols="50" rows="5"></textarea>
+                                                            </div>
+                                                        <div class="modal-footer">
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                          <button type="button" class="btn btn-primary">Guardar puntuación</button>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td>
-                                                  <nav>
-                                                      Dr. GABRIEL AUGEDA 
-                                                  </nav>
-                                                  <nav>
-                                                      TRAUMATOLOGÍA
-                                                  </nav>
+                                                <nav>
+                                                    Dra. GOMEZ TORRES, LUCIA
+                                                </nav>
+                                                <nav>
+                                                    NEFROLOGÍA
+                                                </nav>
                                             </td>
-                                            <td>GOMEZ TORRES, LUCIA</td>
+                                            <td>QUISPE AGUILAR, MARTIN</td>
                                             <td>
                                               <nav>
                                                   DD MM YY 
@@ -143,7 +240,55 @@
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit
                                             </td>
                                             <td>
-                                                <input type="image" src="./imagenes/mail.png" class="btn imgMensaje">
+                                                <input type="image" src="./imagenes/estrella.png" class="btn imgMensaje btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                      <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLabel">Puntuar Cita</h5>
+                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="row">
+                                                                        <div class="col"></div>
+                                                                        <div class="col text-end" id="divImgMedico">
+                                                                            <img class="imgMedico" src="./imagenes/813844_people_512x512.png" alt="Foto medico">
+                                                                        </div>
+                                                                        <div class="col-5">
+                                                                            <div class="fs-2 fw-bold">Nombre médico</div>
+                                                                            <div>
+                                                                                <span class="fs-4">Especialidad:</span>
+                                                                                &nbsp;
+                                                                                <span class="fs-5">#######</span>
+                                                                            </div>
+                                                                            <div class="fs-4">Calificar:</div>
+                                                                        </div>
+                                                                        <div class="col"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--ESTRELLAS-->
+                                                            
+                                                            <div class="text-center mt-3 divEstrellas">
+                                                                <span class="fa fa-star" id="estrella1"></span>
+                                                                <span class="fa fa-star" id="estrella2"></span>
+                                                                <span class="fa fa-star" id="estrella3"></span>
+                                                                <span class="fa fa-star" id="estrella4"></span>
+                                                                <span class="fa fa-star" id="estrella5"></span>
+                                                            </div>
+                                                            <!--COMENTARIO-->
+                                                            <div class="text-center mt-4">
+                                                                <textarea placeholder="Añadir comentario (opcional)" id="comentario" cols="50" rows="5"></textarea>
+                                                            </div>
+                                                        <div class="modal-footer">
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                          <button type="button" class="btn btn-primary">Guardar puntuación</button>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
                                             </td>
                                           </tr>
                                           <tr>
@@ -171,19 +316,67 @@
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit
                                             </td>
                                             <td>
-                                                <input type="image" src="./imagenes/mail.png" class="btn imgMensaje">
+                                                <input type="image" src="./imagenes/estrella.png" class="btn imgMensaje btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                      <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLabel">Puntuar Cita</h5>
+                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="row">
+                                                                        <div class="col"></div>
+                                                                        <div class="col text-end" id="divImgMedico">
+                                                                            <img class="imgMedico" src="./imagenes/813844_people_512x512.png" alt="Foto medico">
+                                                                        </div>
+                                                                        <div class="col-5">
+                                                                            <div class="fs-2 fw-bold">Nombre médico</div>
+                                                                            <div>
+                                                                                <span class="fs-4">Especialidad:</span>
+                                                                                &nbsp;
+                                                                                <span class="fs-5">#######</span>
+                                                                            </div>
+                                                                            <div class="fs-4">Calificar:</div>
+                                                                        </div>
+                                                                        <div class="col"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--ESTRELLAS-->
+                                                            
+                                                            <div class="text-center mt-3 divEstrellas">
+                                                                <span class="fa fa-star" id="estrella1"></span>
+                                                                <span class="fa fa-star" id="estrella2"></span>
+                                                                <span class="fa fa-star" id="estrella3"></span>
+                                                                <span class="fa fa-star" id="estrella4"></span>
+                                                                <span class="fa fa-star" id="estrella5"></span>
+                                                            </div>
+                                                            <!--COMENTARIO-->
+                                                            <div class="text-center mt-4">
+                                                                <textarea placeholder="Añadir comentario (opcional)" id="comentario" cols="50" rows="5"></textarea>
+                                                            </div>
+                                                        <div class="modal-footer">
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                          <button type="button" class="btn btn-primary">Guardar puntuación</button>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td>
                                                   <nav>
-                                                      Dr. GABRIEL AUGEDA 
+                                                      Dra. GABRIELA SANCHEZ 
                                                   </nav>
                                                   <nav>
-                                                      TRAUMATOLOGÍA
+                                                      ENDOCRINOLOGÍA
                                                   </nav>
                                             </td>
-                                            <td>PAREDES SANCHEZ, ARMANDO</td>
+                                            <td>QUISPE AGUILAR, MARTIN</td>
                                             <td>
                                               <nav>
                                                   DD MM YY 
@@ -199,7 +392,55 @@
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit
                                             </td>
                                             <td>
-                                                <input type="image" src="./imagenes/mail.png" class="btn imgMensaje">
+                                                <input type="image" src="./imagenes/estrella.png" class="btn imgMensaje btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                      <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLabel">Puntuar Cita</h5>
+                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="row">
+                                                                        <div class="col"></div>
+                                                                        <div class="col text-end" id="divImgMedico">
+                                                                            <img class="imgMedico" src="./imagenes/813844_people_512x512.png" alt="Foto medico">
+                                                                        </div>
+                                                                        <div class="col-5">
+                                                                            <div class="fs-2 fw-bold">Nombre médico</div>
+                                                                            <div>
+                                                                                <span class="fs-4">Especialidad:</span>
+                                                                                &nbsp;
+                                                                                <span class="fs-5">#######</span>
+                                                                            </div>
+                                                                            <div class="fs-4">Calificar:</div>
+                                                                        </div>
+                                                                        <div class="col"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--ESTRELLAS-->
+                                                            
+                                                            <div class="text-center mt-3 divEstrellas">
+                                                                <span class="fa fa-star" id="estrella1"></span>
+                                                                <span class="fa fa-star" id="estrella2"></span>
+                                                                <span class="fa fa-star" id="estrella3"></span>
+                                                                <span class="fa fa-star" id="estrella4"></span>
+                                                                <span class="fa fa-star" id="estrella5"></span>
+                                                            </div>
+                                                            <!--COMENTARIO-->
+                                                            <div class="text-center mt-4">
+                                                                <textarea placeholder="Añadir comentario (opcional)" id="comentario" cols="50" rows="5"></textarea>
+                                                            </div>
+                                                        <div class="modal-footer">
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                          <button type="button" class="btn btn-primary">Guardar puntuación</button>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
                                             </td>
                                           </tr>
                                     </tbody>
