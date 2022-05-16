@@ -185,7 +185,7 @@ main{
     flex-direction: column;
 }
 
-.cal_citas_main div:nth-child(1){
+.center_month{
     width: 100%;
     height: 50px;
     display: flex;
