@@ -18,6 +18,8 @@
 #rectanguloEspecialidad {
     margin-left: 10%;
     margin-right: 5%;
+    background-color: transparent;
+    border: 2px solid #00838F;
 }
 
 #rectanguloDoctores {
@@ -26,6 +28,7 @@
     overflow-y: scroll;
     overflow-x: hidden;
     padding-right: 25px;
+    background-color: transparent;
 }
 .divBtnCentrado {
     text-align: center;
@@ -56,13 +59,13 @@
     border: 3px solid #00838F ;
     margin-bottom: 10px;
     margin-top: 5%;
+    padding-bottom: 14px;
 }
 
 .imgMedico {
     width: 90px;
     height: 90px;
     margin: 5px;
-    border:3px solid #00838F;
     padding: 5px;
 }
 
@@ -80,6 +83,14 @@
     margin-left:15%;
     color: #00838F;
 }
+
+.btn {
+    color: white;
+    background-color: #00838F;
+    border: none;
+    
+}
+
 
 .link {
     color: #00838F;

@@ -13,6 +13,8 @@
     background-color: #b6d1d4;
     width: 80%;
     margin-bottom: 8%;
+    background-color: transparent;
+    border: 2px solid #00838F;
 }
 
 .imgMensaje {
@@ -22,7 +24,12 @@
     text-align: center;
 }
 .body {
-    background-color:rgb(246, 246, 246) 
+    background-color:rgb(246, 246, 246);
+    color: #00838F;
+}
+
+.cuadroLleno {
+    background-color: transparent;
 }
 
 .link {
