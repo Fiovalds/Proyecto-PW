@@ -59,11 +59,11 @@ a:visited{
 }
 
 #last_col{
-    margin-right: 20px; 
+    
 }
 
 #fecha{
-    margin-left: 10px; margin-top: 57px;
+   
 }
 
 #asunto_text{
@@ -106,5 +106,13 @@ a:visited{
 @media (max-width:700px) {
     body{
             width: fit-content;
+    }
+
+    #columnas_superiores div:nth-child(3){
+        display: block !important;
+    }
+
+    #columnas_superiores div{
+        margin-bottom: 10px;
     }
 }
