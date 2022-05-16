@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(246, 246, 246)
+}
+
+@media (max-width: 700px){
+    body{
+        width: min-content;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .card_calendar{
+        margin-bottom: 40px;
+        display: block;
+    }
+
+    .card_calendar div:nth-child(1){    
+        font-size: 30px;
+        display: contents;
+    }
+
+    .data_user_date{
+        margin-left: 180px;
+    }
+}

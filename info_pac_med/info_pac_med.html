@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="info_pac_med.css">
+    <title>Información del paciente médico</title>
+</head>
+<body>
+    <header>
+        <div class="header_subtitles">
+            <a href="#">Médico</a>
+            /
+            <a href="#">Calendario de citas</a>
+            / 
+            <a href="#">Información del paciente</a>
+        </div>
+        <h2 class="header_titles">Información del paciente</h2>
+    </header>
+    <main>
+        <div class="info_pac_med">
+            <div class="input-group input-group-sm mb-3 ig">
+                <span class="input-group-text color-buttons" id="inputGroup-sizing-sm">Nombre</span>
+                <input class="form-control" type="text" placeholder="Taco, Jimenez" aria-label="Disabled input example" disabled>
+            </div>
+            <div class="input-group input-group-sm mb-3 ig">
+                <span class="input-group-text color-buttons" id="inputGroup-sizing-sm">DNI</span>
+                <input class="form-control" type="text" placeholder="72891968" aria-label="Disabled input example" disabled>
+            </div>
+            <div class="input-group input-group-sm mb-3 ig">
+                <span class="input-group-text color-buttons" id="inputGroup-sizing-sm">Correo</span>
+                <input class="form-control" type="text" placeholder="angelotacoj@gmail.com" aria-label="Disabled input example" disabled>
+            </div>
+        </div>
+        <div class="card_info_pac_med">
+            <div class="card mt-2">
+                <div class="card-body searchshow_card table-responsive">
+                    <div class="col-md-3 me-auto">
+                        <label class="form-label">Buscar:</label>
+                        <input type="text" class="form-control"/>
+                    </div>
+                    <div class="col-md-1">
+                        <label class="form-label">Mostrar</label>
+                        <div class="dropstart">
+                            <a class="btn btn-secondary dropdown-toggle color-buttons" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              5
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">6</a></li>
+                              <li><a class="dropdown-item" href="#">8</a></li>
+                              <li><a class="dropdown-item" href="#">10</a></li>
+                            </ul>
+                        </div>
+                        <label class="form-label">Filas</label>
+                    </div>
+                </div>
+                  <div class="row mt-2">
+                    <div class="col">
+                      <div>
+                        <div class="card-body">
+                          <div class="form-label">
+                            <label class="form-label h5">Médico</label>    
+                          </div>
+                          <div class="d-flex flex-column">
+                            <label class="form-label mt-3 mb-3">Dr. , Taco</label>
+                            <label class="form-label mt-4 mb-3">Dr. , Taco</label>
+                            <label class="form-label mt-4 mb-3">Dr. , Taco</label>
+                            <label class="form-label mt-4 mb-3">Dr. , Taco</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                          <div class="card-body">
+                            <div class="form-label">
+                              <label class="form-label h5">Especialidad</label>    
+                            </div>
+                            <div class="d-flex flex-column">
+                              <label class="form-label mt-3 mb-3">Especialidad A</label>
+                              <label class="form-label mt-4 mb-3">Especialidad B</label>
+                              <label class="form-label mt-4 mb-3">Especialidad C</label>
+                              <label class="form-label mt-4 mb-3">Especialidad D</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div>
+                        <div class="card-body">
+                            <div class="form-label d-flex flex-column">
+                                <label class="form-label h5">Fecha de Atención</label>    
+                            </div>
+                            <div>
+                                <label class="form-label mt-3 mb-3">DD MM YY | Hora</label>
+                            </div>
+                            <div>
+                                <label class="form-label mt-4 mb-3">DD MM YY | Hora</label>
+                            </div>
+                            <div>
+                                <label class="form-label mt-4 mb-3">DD MM YY | Hora</label>
+                            </div>
+                            <div>
+                                <label class="form-label mt-4 mb-3">DD MM YY | Hora</label>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                          <div class="card-body">
+                            <div class="form-label">
+                                <label class="form-label h5">Diagnostico</label>    
+                            </div>
+                            <div>
+                                <div class="form-floating mt-2 mb-2">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                        <div>
+                            <div class="card-body">
+                                <div class="form-label">
+                                    <label class="form-label h5">Medicina recetada</label>    
+                                </div>
+                                <div>
+                                    <div class="form-floating mt-2 mb-2">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-floating mb-2">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-floating mb-2">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-floating mb-2">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="container">
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link color-buttons-other" href="#">Antes</a>
+                            </li>
+                            <li class="page-item active color-buttons">
+                                <a class="page-link color-buttons" href="#">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link color-buttons-other" href="#">Siguiente</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div> 
+            </div>
+        <div class="mt-5">
+            <div  class="extra_info_pac_med">
+                <span>Notas extra de la atención: </span>
+                <div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea"></label>
+                    </div>
+                </div>
+            </div>
+            <div  class="extra_info_pac_med">
+                <span>Diagnostico: </span>
+                <div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea"></label>
+                    </div>
+                </div>
+            </div>
+            <div  class="extra_info_pac_med">
+                <span>Receta: </span>
+                <div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="btn_info_pac mb-4">
+                <button type="button" class="btn btn-primary">Reservar siguiente cita</button>
+                <button type="button" class="btn btn-success color-buttons">Guardar</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
