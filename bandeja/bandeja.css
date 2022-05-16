@@ -1,0 +1,67 @@
+#fondo{
+    background-color:rgb(246, 246, 246)
+}
+a{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+a:visited{
+    color: #00838F;
+}
+#nav-color{
+    background-color: #b6d1d4;    
+color: #00838F;
+    font-size:40px;
+    font-weight:bolder;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#button{
+    margin-left: 15px; margin-bottom: 55px; margin-top: 20px;
+}
+#letra{
+    font-size: 100%;
+    color: #00838F;
+}
+#textt_h1{
+    margin-bottom: 75px;
+}
+
+#caja_p1{
+    width: 100%; margin: auto;
+  padding-bottom: 20px; padding-left:40px; padding-right: 50px; background-color: white;
+}
+
+#caja_p2{
+    width: 100%; margin: auto;
+  padding-bottom: 20px; padding-left:40px; padding-right: 50px; background-color: white;
+}
+
+#name_user1{
+    margin-left: 180px; margin-top: 10px;
+}
+#name_user2{
+    margin-left: 180px; margin-top: 10px;
+}
+
+
+#textt{
+    margin-left: 50PX
+}
+
+#textt2{
+    margin-left: 50PX
+}
+
+#sapce1{
+    margin: 50px;
+}
+
+#sapce2{
+    margin-bottom: 20px;
+}
+
+.imagen{
+    width: 150px;
+}
