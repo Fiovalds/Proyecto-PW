@@ -115,4 +115,8 @@ a:visited{
     #columnas_superiores div{
         margin-bottom: 10px;
     }
+
+    .antifrr{
+        flex-direction: row !important;
+    }
 }
