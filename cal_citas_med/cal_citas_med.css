@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(246, 246, 246)
+}
+
+@media (max-width: 700px){
+    body{
+        width: min-content;
+        background-color:rgb(246, 246, 246)
+    }
+
+    .btn_cal_citas {
+        width: auto;
+        padding: 0;
+        margin: 25px 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn_cal{
+        margin-left: 10px;
+    }
+
+    .ver{
+        margin-left: 20px;
+    }
+}
