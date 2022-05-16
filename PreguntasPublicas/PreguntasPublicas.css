@@ -14,11 +14,13 @@
     background-color: #b6d1d4;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-color: transparent;
+    color: #00838F;
 }
 
 .pregunta {
     margin-top: 30px;
-    border: 2px solid #555;
+    border: 2px solid #00838F;
     margin: 20px;
     height: fit-content;
 }
@@ -31,6 +33,9 @@
 
 .btnResponder {
     width: 60%;
+    background-color: #00838F;
+    border: none;
+    color: white;
 }
 
 .body {
