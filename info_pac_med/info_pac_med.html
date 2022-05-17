@@ -119,22 +119,26 @@
                             <div>
                                 <div class="form-floating mt-2 mb-2">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        <input type="email" class="form-control" id="floatingInput">
+                                        <label for="floatingInput"></label>
                                     </div>
                                 </div>
                                 <div class="form-floating mb-2">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        <input type="email" class="form-control" id="floatingInput">
+                                        <label for="floatingInput"></label>
                                     </div>
                                 </div>
                                 <div class="form-floating mb-2">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        <input type="email" class="form-control" id="floatingInput">
+                                        <label for="floatingInput"></label>
                                     </div>
                                 </div>
                                 <div class="form-floating mb-2">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        <input type="email" class="form-control" id="floatingInput">
+                                        <label for="floatingInput"></label>
                                     </div>
                                 </div>
                             </div>
@@ -150,22 +154,26 @@
                                 <div>
                                     <div class="form-floating mt-2 mb-2">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                            <input type="email" class="form-control" id="floatingInput">
+                                            <label for="floatingInput"></label>
                                         </div>
                                     </div>
-                                    <div class="form-floating mb-2">
+                                    <div class="form-floating mt-2 mb-2">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                            <input type="email" class="form-control" id="floatingInput">
+                                            <label for="floatingInput"></label>
                                         </div>
                                     </div>
-                                    <div class="form-floating mb-2">
+                                    <div class="form-floating mt-2 mb-2">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                            <input type="email" class="form-control" id="floatingInput">
+                                            <label for="floatingInput"></label>
                                         </div>
                                     </div>
-                                    <div class="form-floating mb-2">
+                                    <div class="form-floating mt-2 mb-2">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                            <input type="email" class="form-control" id="floatingInput">
+                                            <label for="floatingInput"></label>
                                         </div>
                                     </div>
                                 </div>
@@ -218,8 +226,23 @@
                 </div>
             </div>
             <div class="btn_info_pac mb-4">
-                <button type="button" class="btn btn-primary">Reservar siguiente cita</button>
-                <button type="button" class="btn btn-success color-buttons">Guardar</button>
+                <a href="/registrar_cita/registrar_cita.html">
+                    <button type="button" class="btn btn-primary">Reservar siguiente cita</button>
+                </a>
+                <button type="button" class="btn btn-success color-buttons" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Guardar</button>
+                <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">¡Su cita se ha registrado!</h5>
+                            </div>
+                            <div class="modal-footer flex-column">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </main>

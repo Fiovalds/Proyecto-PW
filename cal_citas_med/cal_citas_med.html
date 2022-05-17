@@ -31,7 +31,7 @@
         <div class="cal_citas_main">
             <table class="table cal_citas table-bordered ">
               <div>
-                <p class="header_subtitles">MAYO</p>
+                <p class="header_subtitles center_month">MAYO</p>
               </div>
                 <thead>
                   <tr>
@@ -49,9 +49,87 @@
                     <td class="dif_month">30</td>
                     <td class="dif_month">31</td>
                     <td class="btn_active">1
-                        <a href="#" class="ver">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#00838F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                        <a href="#" class="ver" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#00838F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
                         </a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Miercoles</h5>
+                              </div>
+                              <div class="modal-body">
+                                <div class="accordion" id="accordionExample">
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        6:00
+                                      </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        <div class="list-group">
+                                          <a href="/info_pac_med/info_pac_med.html" class="list-group-item list-group-item-action active" aria-current="true">
+                                            Paciente 1
+                                          </a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 2 </a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 3</a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 4</a>
+                                          <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">No disponible</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        7:00
+                                      </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        <div class="list-group">
+                                          <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                                            Paciente 1
+                                          </a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 2 </a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 3</a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 4</a>
+                                          <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">No disponible</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        8:00
+                                      </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        <div class="list-group">
+                                          <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                                            Paciente 1
+                                          </a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 2 </a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 3</a>
+                                          <a href="#" class="list-group-item list-group-item-action">Paciente 4</a>
+                                          <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">No disponible</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Guardar cambios</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </td>
                     <td>2</td>
                     <td>3</td>
