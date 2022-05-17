@@ -1,11 +1,16 @@
 #fondo{
-    background-color:rgb(246, 246, 246)
+    background-color:rgb(246, 246, 246);
+    color: #00838F;
 }
 a{
     color: #00838F;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-decoration: none;
+}
+
+.label_color{
+    color: #00838F;
 }
 
 .borde{
@@ -39,6 +44,10 @@ a:visited{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
+}
+#col11{
+    background-color: transparent;
+    border: 3px solid #00838F;
 }
 
 .row-rev{
