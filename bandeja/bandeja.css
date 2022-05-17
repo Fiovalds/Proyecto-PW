@@ -11,9 +11,6 @@ a:visited{
 }
 #nav-color{
     background-color: #b6d1d4;    
-color: #00838F;
-    font-size:40px;
-    font-weight:bolder;
     text-align: left;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -24,6 +21,7 @@ color: #00838F;
     color: #00838F;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    text-decoration: none;
 }
 
 #letra3{
@@ -41,6 +39,7 @@ color: #00838F;
 }
 #textt_h1{
     margin-bottom: 75px;
+    color: #00838F;
 }
 
 #caja_p1{
@@ -79,4 +78,30 @@ color: #00838F;
 
 .imagen{
     width: 150px;
+}
+
+.color-buttons-other{
+    color: #00838F;
+}
+
+.color-buttons{
+    border-color: #00838F;
+    background-color: #00838F;
+    color: #fff;
+}
+
+.color-buttons:hover{
+    border-color: #00838F;
+    background-color: #00838F;
+}
+
+.color-buttons:focus{
+    border-color: #00838F;
+    background-color: #00838F;
+}
+
+.borde{
+
+    border: #00838F 2px solid;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
 }
