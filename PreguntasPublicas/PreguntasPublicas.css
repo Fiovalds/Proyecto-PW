@@ -49,3 +49,9 @@
 .link {
     color: #00838F;
 }
+
+@media (max-width: 700px){
+    .respuesta{
+        width: -webkit-fill-available;
+    }
+}

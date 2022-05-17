@@ -41,9 +41,32 @@
             </div>
             <div class="row">
                 <div class="text-end">
-                        <button type="button" class="btn btn-info btnResponder m-3" onclick="window.location.href='/mensaje_privado/crear_mensaje_privado.html'">
-                            Responder
-                        </button>
+                    <button type="button" class="btn btn-info btnResponder m-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Responder  
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Responder Pregunta:</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                                <!--COMENTARIO-->
+                                <div class="text-center mt-4 mb-4">
+                                    <textarea placeholder="Añadir respuesta" id="comentario" cols="50" rows="5"></textarea>
+                                </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-info btnResponder" data-bs-dismiss="modal">Guardar respuesta </button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -62,7 +85,7 @@
             </div>
             <div class="row">
                 <div class="text-end">
-                    <button type="button" class="btn btn-info btnResponder m-3" onclick="window.location.href='/mensaje_privado/crear_mensaje_privado.html'">
+                    <button type="button" class="btn btn-info btnResponder m-3" >
                         Responder
                     </button>
                 </div>
@@ -83,7 +106,7 @@
             </div>
             <div class="row">
                 <div class="text-end">
-                    <button type="button" class="btn btn-info btnResponder m-3" onclick="window.location.href='/mensaje_privado/crear_mensaje_privado.html'">
+                    <button type="button" class="btn btn-info btnResponder m-3" >
                         Responder
                     </button>
                 </div>
@@ -104,7 +127,7 @@
             </div>
             <div class="row">
                 <div class="text-end">
-                    <button type="button" class="btn btn-info btnResponder m-3" onclick="window.location.href='/mensaje_privado/crear_mensaje_privado.html'">
+                    <button type="button" class="btn btn-info btnResponder m-3" >
                         Responder
                     </button>
                 </div>
