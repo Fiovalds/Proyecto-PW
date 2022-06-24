@@ -12,18 +12,11 @@
 </head>
 <body>
     <header>
-        <div class="header_subtitles">
-          <a href="/InicioPaciente/InicioPaciente.html">Perfil</a>
-          /
-          <a href="/BuscarMedico/BuscarMedico.html">Médico</a>
-          / 
-          <a href="#">Horario</a>
-        </div>
         <h2 class="header_titles">Horario</h2>
     </header>
     <main>
         <div class="btn_retroceder">
-            <a href="/BuscarMedico/BuscarMedico.html">
+            <a href="../info_pac_med/info_pac_med.html">
                 <button type="button" class="btn btn-secondary color-buttons">Retroceder</button>
             </a>
         </div>
@@ -166,10 +159,23 @@
             </div>
         </div>
         <div class="register">
-          <a href="/MetodoPago/MetodoPago.html">
-            <button type="button" class="btn btn-success register color-buttons">Reservar cita</button>
-          </a>
+          <button type="button" class="btn btn-success color-buttons" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Reservar cita</button>
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header justify-content-center flex-column">
+              <h5 class="modal-title" id="staticBackdropLabel">Cita reservada con exito</h5>
+              <h6 class="modal-title" id="staticBackdropLabel">Imprimiendo boleta. . .</h6>
+              </div>
+              <div class="modal-footer flex-row">
+                  <a href="/inicioMedico/inicioMedico.html"><button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button></a> 
+                   
+              </div>
+          </div>
+          </div>
+      </div>
     </main>
 </body>
 </html>

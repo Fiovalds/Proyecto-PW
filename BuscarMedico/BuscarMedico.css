@@ -26,6 +26,9 @@ a {
     border: 2px solid #00838F;
     height: fit-content;
     padding-bottom: 10%;
+    color: #00838F;
+    width: fit-content;
+    padding-right: 10%;
 }
 
 #rectanguloDoctores {

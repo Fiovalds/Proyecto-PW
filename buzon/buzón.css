@@ -2,6 +2,10 @@
     background-color:rgb(246, 246, 246);
     color: #00838F;
 }
+.fondo_card{
+    background-color:rgb(246, 246, 246);
+    color: #00838F;
+}
 a{
     color: #00838F;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -35,6 +39,12 @@ a:visited{
     color: #00838F;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+.letra2{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 #letra3{

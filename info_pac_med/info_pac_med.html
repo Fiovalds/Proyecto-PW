@@ -173,11 +173,13 @@
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                         <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">¡Su cita se ha registrado!</h5>
+                            <div class="modal-header justify-content-center flex-column">
+                            <h5 class="modal-title id="staticBackdropLabel">¡Su cita se ha registrado!</h5>
+                            <h6 class="modal-title id="staticBackdropLabel">¿Desea agregar una cita adicional?</h6>
                             </div>
-                            <div class="modal-footer flex-column">
-                            <a href="/inicioMedico/inicioMedico.html"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button></a> 
+                            <div class="modal-footer flex-row">
+                                <a href="../registrar_cita_med/registrar_cita_med.html"><button type="button" class="btn btn-success" data-bs-dismiss="modal">Sī, agregar</button></a> 
+                                <a href="/inicioMedico/inicioMedico.html"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Finalizar atención</button></a> 
                             </div>
                         </div>
                         </div>
