@@ -60,12 +60,12 @@
               <td>DD MM YY | Hora</td>
               <td>
               <div>
-                <a class="btn" href="">Enviar Mensaje</a>
+                <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2" href="">Enviar Mensaje</a>
               </div>
               </td>
               <td>
                 <div>
-                  <a class="btn" href="">Enviar Recordatorio</a>
+                  <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="">Enviar Recordatorio</a>
                 </div>
               </td>
             </tr>
@@ -73,57 +73,57 @@
               <td>APELLIDOS, NOMBRES</td>
               <td>DD MM YY | Hora</td>
               <td>
-              <div>
-                <a class="btn" href="">Enviar Mensaje</a>
-              </div>
-              </td>
-              <td>
                 <div>
-                  <a class="btn" href="">Enviar Recordatorio</a>
+                  <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2" href="">Enviar Mensaje</a>
                 </div>
-              </td>
+                </td>
+                <td>
+                  <div>
+                    <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="">Enviar Recordatorio</a>
+                  </div>
+                </td>
             </tr>
             <tr>
               <td>APELLIDOS, NOMBRES</td>
               <td>DD MM YY | Hora</td>
               <td>
-              <div>
-                <a class="btn" href="">Enviar Mensaje</a>
-              </div>
-              </td>
-              <td>
                 <div>
-                  <a class="btn" href="">Enviar Recordatorio</a>
+                  <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2" href="">Enviar Mensaje</a>
                 </div>
-              </td>
+                </td>
+                <td>
+                  <div>
+                    <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="">Enviar Recordatorio</a>
+                  </div>
+                </td>
             </tr>
             <tr>
               <td>APELLIDOS, NOMBRES</td>
               <td>DD MM YY | Hora</td>
               <td>
-              <div>
-                <a class="btn" href="">Enviar Mensaje</a>
-              </div>
-              </td>
-              <td>
                 <div>
-                  <a class="btn" href="">Enviar Recordatorio</a>
+                  <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2" href="">Enviar Mensaje</a>
                 </div>
-              </td>
+                </td>
+                <td>
+                  <div>
+                    <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="">Enviar Recordatorio</a>
+                  </div>
+                </td>
             </tr>
             <tr>
               <td>APELLIDOS, NOMBRES</td>
               <td>DD MM YY | Hora</td>
               <td>
-              <div>
-                <a class="btn" href="">Enviar Mensaje</a>
-              </div>
-              </td>
-              <td>
                 <div>
-                  <a class="btn" href="">Enviar Recordatorio</a>
+                  <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2" href="">Enviar Mensaje</a>
                 </div>
-              </td>
+                </td>
+                <td>
+                  <div>
+                    <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="">Enviar Recordatorio</a>
+                  </div>
+                </td>
             </tr>
           </table>
           <div class="container">
@@ -145,5 +145,42 @@
       </div>
     </div>
     </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Enviar Mensaje:</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              
+              <!--COMENTARIO-->
+              <div class="text-center mt-4 mb-4">
+                  <textarea placeholder="Añadir mensaje" id="comentario" cols="50" rows="5"></textarea>
+              </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-info btnResponder" data-bs-dismiss="modal">Guardar mensaje </button>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Recordatorio enviado</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1>¡Su recordatorio fue enviado con éxito!</h1>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>

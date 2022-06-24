@@ -44,3 +44,7 @@ a{
     background-color: #b6d1d4;
     color: #00838F;   
 }
+.scroll{
+    overflow-y: scroll;
+    height: 190px;
+}
