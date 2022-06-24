@@ -41,7 +41,7 @@ a{
     text-decoration: none;
 }
 .table{
-    background-color: #b6d1d4;
+    background-color: rgb(246, 246, 246);
     color: #00838F;   
 }
 #link-header{
@@ -49,4 +49,8 @@ a{
 }
 h2{
     font-weight: bold;
+}
+
+td{
+    padding: 100px;
 }

@@ -62,5 +62,15 @@
         margin-right: 0;
         margin-bottom: 8px;
     }
+    
 
 }
+.diagnostico_head{
+    width: 30%;
+
+}
+.diagnostico_body{
+    width: 30%;
+    text-align: justify;
+}
+

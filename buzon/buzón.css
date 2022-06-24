@@ -151,3 +151,11 @@ main{
     border-color: #00838F;
     background-color: #00838F;
 }
+.diagnostico_head{
+    width: 30%;
+
+}
+.diagnostico_body{
+    width: 30%;
+    text-align: justify;
+}
