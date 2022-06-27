@@ -1,8 +1,8 @@
-import '../css/CCM/main.css';
-import '../css/CCM/cal_citas_med.css';
-import Mayo from '../html/CCM/Mayo'
-import Abril from '../html/CCM/Abril'
-import Junio from '../html/CCM/Junio'
+import '../../css/CCM/main.css';
+import '../../css/CCM/cal_citas_med.css';
+import Mayo from '../../html/CCM/Mayo'
+import Abril from '../../html/CCM/Abril'
+import Junio from '../../html/CCM/Junio'
 import { useState } from 'react';
 
 

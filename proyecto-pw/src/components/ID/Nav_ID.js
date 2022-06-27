@@ -1,5 +1,5 @@
-import '../css/ID/main.css';
-import '../css/ID/info_doc.css';
+import '../../css/ID/main.css';
+import '../../css/ID/info_doc.css';
 
 const Nav_ID = () =>{
     return(

@@ -1,6 +1,6 @@
-import doctor from '../media/media_Angelo/813844_people_512x512.png'
-import mail from '../media/media_Angelo/mail.png'
-import user from '../media/media_Angelo/1430453.png'
+import doctor from '../../media/media_Angelo/813844_people_512x512.png'
+import mail from '../../media/media_Angelo/mail.png'
+import user from '../../media/media_Angelo/1430453.png'
 
 
 

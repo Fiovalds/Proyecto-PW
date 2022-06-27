@@ -1,5 +1,5 @@
-import '../css/HC/main.css';
-import '../css/HC/historial_citas.css';
+import '../../css/HC/main.css';
+import '../../css/HC/historial_citas.css';
 
 const Nav_HC = () => {
     return (

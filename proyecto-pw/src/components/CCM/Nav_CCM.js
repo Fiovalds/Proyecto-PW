@@ -1,5 +1,5 @@
-import '../css/CCM/main.css';
-import '../css/CCM/cal_citas_med.css';
+import '../../css/CCM/main.css';
+import '../../css/CCM/cal_citas_med.css';
 
 const Nav_CCM = () => {
     return (
