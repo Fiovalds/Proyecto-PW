@@ -1,5 +1,5 @@
-import Nav_ID from "../components/Nav_ID"
-import Main_ID from "../components/Main_ID"
+import Nav_ID from "../components/ID/Nav_ID"
+import Main_ID from "../components/ID/Main_ID"
 
 
 const Pagina_ID = () =>{

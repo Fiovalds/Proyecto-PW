@@ -1,5 +1,5 @@
-import Nav_CCM from "../components/Nav_CCM"
-import Main_CCM from "../components/Main_CCM"
+import Nav_CCM from "../components/CCM/Nav_CCM"
+import Main_CCM from "../components/CCM/Main_CCM"
 
 const Pagina_CCM = () => {
     return(

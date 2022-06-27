@@ -1,5 +1,5 @@
-import Nav_HC from "../components/Nav_HC";
-import Main_HC from "../components/Main_HC";
+import Nav_HC from "../components/HC/Nav_HC";
+import Main_HC from "../components/HC/Main_HC";
 
 const Pagina_HC = () => {
     return(
