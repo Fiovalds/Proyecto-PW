@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(246, 246, 246)
+}
+
+@media (max-width: 700px){
+    body{
+        width: min-content;
+    }
+
+    .card_calendar{
+        margin-bottom: 40px;
+        display: block;
+    }
+}
