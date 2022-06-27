@@ -8,9 +8,9 @@ import Pagina_ID from './pages/Pagina_ID';
 
 function App() {
   return (
-    //<Pagina_ID/>
+    <Pagina_ID/>
     //<Pagina_CCM/>
-    <Pagina_HC/>
+    //<Pagina_HC/>
   );
 }
 
