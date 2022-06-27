@@ -1,8 +1,8 @@
 import '../css/HC/main.css';
 import '../css/HC/historial_citas.css';
-import imagen1 from '../media/img_historial_citas1.jpeg'
-import imagen2 from '../media/img_historial_citas2.jpeg'
-import imagen3 from '../media/img_historial_citas3.jpeg'
+import imagen1 from '../media/HC/img_historial_citas1.jpeg'
+import imagen2 from '../media/HC/img_historial_citas2.jpeg'
+import imagen3 from '../media/HC/img_historial_citas3.jpeg'
 import { useState } from 'react';
 
 const Main_HC = () => {
