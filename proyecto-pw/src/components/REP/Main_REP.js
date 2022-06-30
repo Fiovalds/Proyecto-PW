@@ -121,7 +121,7 @@ const Main_REP = () =>{
         </div>
         <div className="row align-items-center justify-content-center pt-5 pb-2" >
             <div className="d-grid gap-2 col-sm-2 mb-3 ">
-                <a className="btn btn-success"  onClick={ registrarPacienteOnClick} role="button">Registrar</a>
+                <a className="btn btn-success" /* href="/Login/Login.html" */  onClick={ registrarPacienteOnClick} role="button">Registrar</a>
             </div>
             <div className="d-grid gap-2 col-sm-2 mb-3">
                 <a className="btn btn-danger "  href="/Login/Login.html" role="button">Cancelar</a>
