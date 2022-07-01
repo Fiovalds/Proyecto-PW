@@ -8,6 +8,7 @@ import Pagina_ID from './pages/Pagina_ID';
 import Pagina_IPM from './pages/Pagina_IPM';
 import Pagina_LOG from './pages/Pagina_LOG';
 import Pagina_REP from './pages/Pagina_REP';
+import Pagina_REE from './pages/Pagina_REE';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
     //<Pagina_CCM/>
     //<Pagina_HC/>
     //<Pagina_IPM/>
-    <Pagina_LOG/>
+    //<Pagina_LOG/>
     //<Pagina_REP/>
+    <Pagina_REE/>
   );
 }
 
