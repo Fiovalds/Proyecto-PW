@@ -9,17 +9,19 @@ import Pagina_IPM from './pages/Pagina_IPM';
 import Pagina_LOG from './pages/Pagina_LOG';
 import Pagina_REP from './pages/Pagina_REP';
 import Pagina_REE from './pages/Pagina_REE';
+import Pagina_BUZ from './pages/Pagina_BUZ';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    //<Pagina_ID/>
-    //<Pagina_CCM/>
+    //<Pagina_ID/> 
+    //<Pagina_CCM/> 
     //<Pagina_HC/>
     //<Pagina_IPM/>
     //<Pagina_LOG/>
     //<Pagina_REP/>
-    <Pagina_REE/>
+    //<Pagina_REE/>
+    <Pagina_BUZ/>
   );
 }
 
