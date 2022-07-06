@@ -10,6 +10,7 @@ import Pagina_LOG from './pages/Pagina_LOG';
 import Pagina_REP from './pages/Pagina_REP';
 import Pagina_REE from './pages/Pagina_REE';
 import Pagina_BUZ from './pages/Pagina_BUZ';
+import Pagina_BAND from './pages/Pagina_BAND';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
     //<Pagina_LOG/>
     //<Pagina_REP/>
     //<Pagina_REE/>
-    <Pagina_BUZ/>
+    //<Pagina_BUZ/>
+    <Pagina_BAND/>
   );
 }
 
