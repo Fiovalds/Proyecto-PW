@@ -3,7 +3,7 @@ import '../../css/MPUB/mensajes.css'
 const Main_MPUB = () =>{
     return(
         <section>
-            <div className="container row-rev">
+            <div className="container button_mpub_row_rev">
                 <a href="/bandeja/Bandeja_de_entrada.html" >  
                 <button id="button_id"  type="button" className="btn btn-btn-primary btn-lg color-buttons" >Retroceder</button>	</a>
             </div>

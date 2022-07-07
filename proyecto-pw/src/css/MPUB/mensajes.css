@@ -1,3 +1,9 @@
+.button_mpub_row_rev{
+    display: flex;
+    flex-direction: row-reverse !important;
+    justify-content: unset;
+}
+
 #fondo{
     background-color:rgb(246, 246, 246);
     color: #00838F;
@@ -51,6 +57,7 @@ a:visited{
 #caja{
     width: 100%; margin: auto;
     padding-bottom: 20px; padding-left:40px; padding-right: 50px;
+    background-color: #fff;
 
 }
 #columnas_superiores{
