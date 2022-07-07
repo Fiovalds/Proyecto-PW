@@ -12,14 +12,14 @@ const Main_MPUB = () =>{
                 
                 <div id="columnas_superiores" className="row" >
                 <div className="col">
-                    De:  <input id="col11"  type="text"  placeholder="" ></input>
+                    De:  <input id="col11"  type="text"  placeholder="" />
                 </div>                  
                 <div className="col d-flex flex-row-reverse antifrr" id="last_col" >
-                    <input id="col11"  ma type="date"  placeholder="" > </input>
+                    <input id="col11" type="date"  placeholder="" />
                 </div>    
                 </div> 
 
-                <div id="asunto_text" >Asunto: <input id="col11"  type="text" placeholder="" > </input>
+                <div id="asunto_text" >Asunto: <input id="col11"  type="text" placeholder=""/>
                 </div>
 
                 <div>
