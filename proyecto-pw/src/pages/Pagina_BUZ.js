@@ -4,11 +4,11 @@ import Nav_BUZ from "../components/BUZ/Nav_BUZ"
 
 const Pagina_BUZ = () => {
     return(
-        <body id="fondo">
+        <main>
             <Nav_BUZ/>
             <Butt_BUZ/>
             <Main_BUZ/>
-        </body>
+        </main>
     )
 } 
 export default Pagina_BUZ

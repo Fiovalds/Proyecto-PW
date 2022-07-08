@@ -4,7 +4,7 @@ import user from '../../media/media_Angelo/1430453.png'
 const Main_BAND = () => {
     return (
         <section>
-            <div className="container" id="textt_h1" >
+            <div id="textt_h1" >
                 <h1>Bandeja </h1>
             </div>
             <div className="container mt-2">

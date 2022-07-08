@@ -4,11 +4,11 @@ import Nav_BAND from "../components/BAND/Nav_BAND"
 
 const Pagina_BAND = () => {
     return(
-        <body>
+        <main>
             <Nav_BAND/>
             <Butt_BAND/>
             <Main_BAND/>
-        </body>
+        </main>
     )
 } 
 export default Pagina_BAND
