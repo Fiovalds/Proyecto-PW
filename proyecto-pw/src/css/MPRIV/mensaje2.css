@@ -1,3 +1,9 @@
+.button_mpriv_row_rev{
+    display: flex;
+    flex-direction: row-reverse !important;
+    justify-content: unset;
+}
+
 #fondo{
     background-color:rgb(246, 246, 246);
     color: #00838F;

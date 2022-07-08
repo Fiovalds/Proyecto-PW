@@ -4,11 +4,11 @@ import Nav_MPRIV from "../components/MPRIV/Nav_MPRIV"
 
 const Pagina_MPRIV = () => {
     return(
-        <body id="fondo">
+        <main>
             <Nav_MPRIV/>
             <But_MPRIV/>
             <Main_MPRIV/>
-        </body>
+        </main>
     )
 } 
 export default Pagina_MPRIV

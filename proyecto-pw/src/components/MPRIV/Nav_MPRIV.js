@@ -11,7 +11,7 @@ const Nav_MPRIV = () =>{
                     </a>
                     <a className="nave" href="#" id="letra">
                     Preguntas Privados
-                </a>
+                    </a>
                 </div>
                 <div className="ms-4">
                     <span className="navbar-brand h1" id="letra3">Crear Mensaje Privado</span>

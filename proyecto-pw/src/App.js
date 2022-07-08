@@ -26,8 +26,8 @@ function App() {
     //<Pagina_REE/>
     //<Pagina_BUZ/>
     //<Pagina_BAND/>
-    //<Pagina_MPRIV/>
-    <Pagina_MPUB/>
+    <Pagina_MPRIV/>
+    //<Pagina_MPUB/>
   );
 }
 
