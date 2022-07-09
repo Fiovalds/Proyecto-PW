@@ -6,14 +6,14 @@ import ComDoc_ID from "../components/ID/ComDoc_ID"
 
 const Pagina_ID = () =>{
     return(
-        <body>
+        <section>
             <Nav_ID />
             <main>
                 <InfoDoc_ID />
                 <CalDoc_ID />
                 <ComDoc_ID/>
             </main>
-        </body>
+        </section>
     )
 }
 export default Pagina_ID
