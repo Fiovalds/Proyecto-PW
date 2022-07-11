@@ -1,8 +1,8 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import CuadroFiltrar from "../components/CuadroFiltrar.component"
+import CuadroFiltrar from "../components/BM/CuadroFiltrar.component"
 import './css/BuscarMedico.css'
-import CuadroMedicos from "../components/CuadroMedicos.component"
-import NavbarBM from "../components/NavbarBM.component"
+import CuadroMedicos from "../components/BM/CuadroMedicos.component"
+import NavbarBM from "../components/BM/NavbarBM.component"
 
 const BuscarMedico = _ => {
     const ListaEspecialidades = ["Especialidad 1","Especialidad 2","Especialidad 3","Especialidad 4","Especialidad 5"]

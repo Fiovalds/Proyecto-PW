@@ -2,8 +2,8 @@
     background-color: #b6d1d4 !important;
 }
 
-.container_login{
-    margin: 0px 80px;
+.container{
+    display: block;
 }
 
 body{

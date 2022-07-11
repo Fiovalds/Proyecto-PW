@@ -14,6 +14,12 @@ import Pagina_CP from "./pages/Pagina_CP";
 import Pagina_EP from "./pages/Pagina_EP";
 import Pagina_MP from "./pages/Pagina_MP";
 import Pagina_TP from "./pages/Pagina_TP";
+import BuscarMedico from './pages/BuscarMedico.page';
+import HistorialCitas from './pages/HistorialCitas.page';
+import PuntuarMedico from './pages/PuntuarMedico.page';
+import PreguntasPrivadas from './pages/PreguntasPrivadas.page';
+import PreguntasPublicas from './pages/PreguntasPublicas.page';
+
 
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,15 +29,15 @@ function App() {
     //<Pagina_CCM/> 
     //<Pagina_HC/>
     //<Pagina_IPM/>
-    <Pagina_LOG/>
+    //<Pagina_LOG/>
     //<Pagina_REP/>
     //<Pagina_REE/>
     //<Pagina_INP/>
     //<Pagina_EP/>
     //<Pagina_CP/>
     //<Pagina_MP/>
-    <Pagina_TP/>
-
+    //<Pagina_TP/>
+    <BuscarMedico/>
   );
 }
 
