@@ -1,7 +1,7 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 //import "../../node_modules/bootstrap/js/src/modal.js"
-import NavbarPPr from "../components/NavbarPPr.component"
-import TablaPreguntasPr from "../components/TablaPreguntasPr.component"
+import NavbarPPr from "../components/PPR/NavbarPPr.component"
+import TablaPreguntasPr from "../components/PPR/TablaPreguntasPr.component"
 import './css/PreguntasPrivadas.css'
 
 const preguntas = [{paciente:"Nuevo Paciente",

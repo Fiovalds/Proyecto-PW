@@ -8,9 +8,9 @@ const NavbarBM = () => {
                     <div className="fs-5 ms-4">
                         <a className="link" href="/InicioPaciente/InicioPaciente.html">Principal</a>
                         /
-                        {<Link to="#">
-                            <a className="link" href="/BuscarMedico/BuscarMedico.html">Buscar medico</a>
-                        </Link>}
+                       {/*aqui habia un link*/}
+                            <a className="link" href="/Buscaredico/BuscarMedico.html">Buscar medico</a>
+                    
                     </div>
                     <div className="mt-2 mb-2 ms-4 fw-bold fs-1" id="divNombreEmpresa">
                         EMPRESA XYZ

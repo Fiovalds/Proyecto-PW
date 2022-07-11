@@ -52,11 +52,11 @@ const Main_TP = () => {
                     <div>
                         <table>
                         <tbody>
-                            <tr>
-                                <td><img src={visa}/></td>
-                                <td><img src={amex}/></td>
-                                <td><img src={mastercard}/></td>
-                                <td><img src={diner}/></td>
+                            <tr className="trvirus">
+                                <td className="tdvirus"><img className="imgvirus" src={visa}/></td>
+                                <td className="tdvirus"><img className="imgvirus" src={amex}/></td>
+                                <td className="tdvirus"><img className="imgvirus" src={mastercard}/></td>
+                                <td className="tdvirus"><img className="imgvirus" src={diner}/></td>
                             </tr>
                         </tbody>
                         </table>

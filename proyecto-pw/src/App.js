@@ -19,7 +19,8 @@ import HistorialCitas from './pages/HistorialCitas.page';
 import PuntuarMedico from './pages/PuntuarMedico.page';
 import PreguntasPrivadas from './pages/PreguntasPrivadas.page';
 import PreguntasPublicas from './pages/PreguntasPublicas.page';
-
+import Pagina_BAND from './pages/Pagina_BAND'
+import HorarioAtencionPage from './pages/HorarioAtencion.page';
 
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -37,7 +38,10 @@ function App() {
     //<Pagina_CP/>
     //<Pagina_MP/>
     //<Pagina_TP/>
-    <BuscarMedico/>
+    //<BuscarMedico/>
+    //<HistorialCitas/>
+    //<Pagina_BAND/>
+    <HorarioAtencionPage/>
   );
 }
 

@@ -1,8 +1,8 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../../node_modules/bootstrap/js/src/modal.js"
-import NavbarHC from "../components/NavbarHC.component"
+import NavbarHC from "../components/HC_U/NavbarHC.component"
 import './css/HistorialCitas.css'
-import FilaHistorial from "../components/FilaHistorial.component"
+import FilaHistorial from "../components/HC_U/FilaHistorial.component"
 
 const Historial = [{medico:"Dra. GOMEZ TORRES, LUCIA",especialidad:"NEFROLOGÍA",paciente:"QUISPE AGUILAR, MARTIN",fecha:"DD MM YY",
 hora:"Hora",diagnostico:"Lorem ipsum, dolor sit amet consectetur adipisicing elit",receta:"Lorem ipsum dolor sit amet consectetur adipisicing elit"},

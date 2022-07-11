@@ -9,13 +9,13 @@
     background-color:rgb(246, 246, 246)
 }
 
-tr{
+.trvirus{
     width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-td{
+.tdvirus{
     width: 45px;
     height: 10px;
     display: flex;
@@ -64,7 +64,7 @@ a{
     width: 300px;
 }
 
-img{
+.imgvirus{
   padding: 58px;
   width: 154px;
   height: 140px;

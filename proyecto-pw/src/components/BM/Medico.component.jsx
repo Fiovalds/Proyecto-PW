@@ -8,9 +8,9 @@ const Medico = (props) => {
                 <div className="divImgMedico text-center">
                     <img className="imgMedico" src={medico} alt="Doctor"></img>
                     <form method="get" action="/PuntuarMedico/PuntuarMedico.html">
-                        {<Link to='./PuntuarMedico'>
+                        {/* aqui habia un link*/}
                             <input type="image" src={estrella} className="btn imgEstrella btn-sm"></input>
-                        </Link>}
+                      
                     </form>
                 </div>
                 <div className="text-center">

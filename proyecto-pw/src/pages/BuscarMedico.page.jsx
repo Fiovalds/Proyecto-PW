@@ -9,8 +9,8 @@ const BuscarMedico = _ => {
     //PASA LOS DATOS DE ESTA PAGINA A LA DE PUNTUAR MEDICO A TRAVES DE PARAMETROS DE URL
     return <>
         <body className="container-fluid body">
-            <NavbarBM/>
-            <div className="row">
+        <NavbarBM/>
+        <div className="row">
                 <CuadroFiltrar especialidades = {ListaEspecialidades}/>
                 <CuadroMedicos/>
             </div>
