@@ -23,7 +23,7 @@ function App() {
     //<Pagina_CCM/> 
     //<Pagina_HC/>
     //<Pagina_IPM/>
-    //<Pagina_LOG/>
+    <Pagina_LOG/>
     //<Pagina_REP/>
     //<Pagina_REE/>
     //<Pagina_INP/>

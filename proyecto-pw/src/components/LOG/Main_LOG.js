@@ -21,7 +21,7 @@ const Main_LOG = () =>{
     }
 
     return(
-        <div className="container aislarcontenido borde mt-10 mb-5 color_letra">
+        <div className="container_login aislarcontenido borde mt-10 mb-5 color_letra">
             <ul className="nav justify-content-end">    
                 <li className="nav-item">
                 <a className="nav-link fs-5" href="/RegistroPaciente/RegistroPaciente.html">Registro Paciente</a>
