@@ -1,6 +1,11 @@
 .fondocabecera{
     background-color: #b6d1d4;
 }
+
+.container_login{
+    margin: 0px 80px;
+}
+
 body{
     background-color:rgb(246, 246, 246)
 }

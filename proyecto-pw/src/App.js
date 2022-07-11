@@ -19,11 +19,11 @@ import Pagina_TP from "./pages/Pagina_TP";
 
 function App() {
   return (
-    <Pagina_ID/> 
+    //<Pagina_ID/> 
     //<Pagina_CCM/> 
     //<Pagina_HC/>
     //<Pagina_IPM/>
-    //<Pagina_LOG/>
+    <Pagina_LOG/>
     //<Pagina_REP/>
     //<Pagina_REE/>
     //<Pagina_INP/>
