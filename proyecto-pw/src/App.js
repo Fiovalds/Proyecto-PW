@@ -19,7 +19,7 @@ import Pagina_TP from "./pages/Pagina_TP";
 
 function App() {
   return (
-    <Pagina_ID/> 
+    //<Pagina_ID/> 
     //<Pagina_CCM/> 
     //<Pagina_HC/>
     //<Pagina_IPM/>
@@ -30,7 +30,7 @@ function App() {
     //<Pagina_EP/>
     //<Pagina_CP/>
     //<Pagina_MP/>
-    //<Pagina_TP/>
+    <Pagina_TP/>
 
   );
 }
