@@ -3,11 +3,11 @@ import user from '../../media/media_Angelo/1430453.png'
 const ComDoc_ID = () => {
     return(
         <section>
-            <div class="doctor_comments">
+            <div className="doctor_comments">
                 <div>Comentarios sobre el doctor:</div>
-                <div class="user_comment">
-                    <div class="user_info">
-                    <div class="card_info_img_2">
+                <div className="user_comment">
+                    <div className="user_info">
+                    <div className="card_info_img_2">
                         <img src={user} alt=""/>
                     </div>
                         Rachel Green
@@ -17,11 +17,11 @@ const ComDoc_ID = () => {
                     </div>
                 </div>
             </div>
-            <div class="doctor_comments">
+            <div className="doctor_comments">
             
-                <div class="user_comment">
-                    <div class="user_info">
-                    <div class="card_info_img_2">
+                <div className="user_comment">
+                    <div className="user_info">
+                    <div className="card_info_img_2">
                         <img src={user} alt=""/>
                     </div>
                         Monica Geller

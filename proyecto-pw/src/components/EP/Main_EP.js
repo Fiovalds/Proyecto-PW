@@ -1,4 +1,4 @@
-import "../../CSS/EditarPerfil.css"
+import "../../css/EditarPerfil.css"
 import React from "react"
 
 const Main_EP = () => {

@@ -1,4 +1,4 @@
-import "../../CSS/MisCitas.css"
+import "../../css/MisCitas.css"
 
 const Main_CP = (props) => {
     return <>

@@ -1,4 +1,4 @@
-import "../../CSS/MetodoPago.css"
+import "../../css/MetodoPago.css"
 import React from "react"
 
 const Main_EP = () => {

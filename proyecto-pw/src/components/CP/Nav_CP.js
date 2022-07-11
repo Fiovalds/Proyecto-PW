@@ -1,4 +1,4 @@
-import "../../CSS/MisCitas.css"
+import "../../css/MisCitas.css"
 
 const Nav_CP = () => {
     return(

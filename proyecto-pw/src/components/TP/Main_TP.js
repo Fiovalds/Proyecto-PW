@@ -1,4 +1,4 @@
-import "../../CSS/TarjetaPago.css"
+import "../../css/TarjetaPago.css"
 import amex from "../../media/amex.png"
 import diner from "../../media/diner.png"
 import mastercard from "../../media/masterca.png"

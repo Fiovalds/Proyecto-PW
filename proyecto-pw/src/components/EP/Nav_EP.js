@@ -1,4 +1,4 @@
-import "../../CSS/EditarPerfil.css"
+import "../../css/EditarPerfil.css"
 
 
 const Nav_EP = () => {
