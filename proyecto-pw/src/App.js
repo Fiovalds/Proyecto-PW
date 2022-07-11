@@ -14,8 +14,8 @@ import Pagina_INP from './pages/Pagina_INP';
 
 function App() {
   return (
-    //<Pagina_ID/>
-    //<Pagina_CCM/>
+    //<Pagina_ID/> 
+    //<Pagina_CCM/> 
     //<Pagina_HC/>
     //<Pagina_IPM/>
     //<Pagina_LOG/>

@@ -1,10 +1,15 @@
+.button_mpriv_row_rev{
+    display: flex;
+    flex-direction: row-reverse !important;
+    justify-content: unset;
+}
+
 #fondo{
     background-color:rgb(246, 246, 246);
     color: #00838F;
 }
 a{
     color: #00838F;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 a:visited{
@@ -12,14 +17,9 @@ a:visited{
         }
 #letra{
     color: #00838F;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     font-size: 20px;
     text-decoration: none;
-}
-.borde{
-
-    border: #00838F 2px solid;
-    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
 }
 
 #letra3{
@@ -27,9 +27,6 @@ a:visited{
     font-size:40px;
     font-weight:bolder;
     text-align: left;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
 }
 
 #nav-color{
@@ -51,7 +48,6 @@ a:visited{
 #caja{
     width: 100%; margin: auto;
     padding-bottom: 20px; padding-left:40px; padding-right: 50px;
-    background-color: #fff;
 
 }
 #columnas_superiores{
@@ -61,16 +57,19 @@ a:visited{
 #col11{
 
     margin-top: 10px;
-    border: 3px solid #00838F;
     background-color: transparent;
+    border: 3px solid #00838F;
 }
 
 #asunto_text{
     margin-top: 25px; margin-bottom: 35px; 
+    background-color: transparent;
 }
 
 #asunto_box{
     margin-top: 20px; 
+    background-color: transparent;
+    border: 3px solid #00838F;
 }
 
 #texto_escrbir{
@@ -88,11 +87,14 @@ a:visited{
 }
 
 
-
 #espacio_final{
 
     margin-bottom: 20px; 
 
+}
+
+.nave {
+    text-decoration: none;
 }
 
 #text_para{
@@ -119,6 +121,12 @@ a:visited{
     background-color: #00838F;
 }
 
+.borde{
+
+    border: #00838F 2px solid;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
 @media (max-width:700px) {
     body{
             width: fit-content;
@@ -130,9 +138,5 @@ a:visited{
 
     #columnas_superiores div{
         margin-bottom: 10px;
-    }
-
-    .antifrr{
-        flex-direction: row !important;
     }
 }
