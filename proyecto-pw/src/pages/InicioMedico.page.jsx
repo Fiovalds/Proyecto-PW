@@ -1,7 +1,7 @@
-import CardInicioMedicoDer from "../components/CardInicioMedicoDer.component";
-import CardInicioMedicoIzq1 from "../components/CardInicioMedicoIzq1.component";
-import CardInicioMedicoIzq2 from "../components/CardInicioMedicoIzq2.component";
-import NavbarInicioMedico from "../components/NavBarInicioMedico.component";
+import CardInicioMedicoDer from "../components/IM/CardInicioMedicoDer.component";
+import CardInicioMedicoIzq1 from "../components/IM/CardInicioMedicoIzq1.component";
+import CardInicioMedicoIzq2 from "../components/IM/CardInicioMedicoIzq2.component";
+import NavbarInicioMedico from "../components/IM/NavBarInicioMedico.component";
 
 // const InicioMedico = () => {
 //   return (
