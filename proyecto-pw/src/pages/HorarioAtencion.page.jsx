@@ -1,5 +1,5 @@
-import NavbarHorarioAtencion from "../components/NavbarHorarioAtencion.component";
-import TablaHorarioAtencion from "../components/TablaHorarioAtencion.component";
+import NavbarHorarioAtencion from "../components/HA/NavbarHorarioAtencion.component";
+import TablaHorarioAtencion from "../components/HA/TablaHorarioAtencion.component";
 
 const HorarioAtencionPage = () => {
   return (
