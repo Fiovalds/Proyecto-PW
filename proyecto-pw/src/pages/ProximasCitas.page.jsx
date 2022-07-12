@@ -1,5 +1,5 @@
-import NavbarProximasCitas from "../components/NavbarProximasCitas.component";
-import CardProximasCitas from "../components/CardProximasCitas.component";
+import NavbarProximasCitas from "../components/PC/NavbarProximasCitas.component";
+import CardProximasCitas from "../components/PC/CardProximasCitas.component";
 
 const ProximasCitas = () => {
   return (
