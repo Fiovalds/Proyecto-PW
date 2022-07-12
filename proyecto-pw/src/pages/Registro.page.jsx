@@ -1,6 +1,6 @@
-import CardRegistroIzq from "../components/CardRegistroIzq.component";
-import NavbarRegistro from "../components/NavbarProximasCitas.component";
-import CardRegistroDer from "../components/CardRegistroDer.component";
+import CardRegistroIzq from "../components/REG/CardRegistroIzq.component";
+import NavbarRegistro from "../components/REG/NavbarRegistro.component";
+import CardRegistroDer from "../components/REG/CardRegistroDer.component";
 
 const Registro = () => {
   return (
