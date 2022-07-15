@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import './index.css';
 import Pagina_HC from './pages/Pagina_HC';
+import Pagina_RC from './pages/Pagina_RC';
 import Pagina_CCM from './pages/Pagina_CCM';
 import Pagina_ID from './pages/Pagina_ID';
 import Pagina_IPM from './pages/Pagina_IPM';
@@ -34,6 +35,7 @@ function App() {
     //<Pagina_REP/>
     //<Pagina_REE/>
     //<Pagina_INP/>
+    <Pagina_RC/>
     //<Pagina_EP/>
     //<Pagina_CP/>
     //<Pagina_MP/>
@@ -41,7 +43,7 @@ function App() {
     //<BuscarMedico/>
     //<HistorialCitas/>
     //<Pagina_BAND/>
-    <HorarioAtencionPage/>
+    //<HorarioAtencionPage/>
   );
 }
 
