@@ -1,6 +1,19 @@
+import { Link } from "react-router-dom"
 import "../../css/RC/RecuperarContraseña.css"
+import React from "react"
 
 const Main_RC = () =>{
+    const [correo, setCorreo] = React.useState("")
+
+    const onCorreoChange = (evt) => {
+        setCorreo(evt.target.value)
+    }
+    const corroborarCorreo = () => {
+        const datosAcorroborar = {
+            correo : correo,
+        }
+        console.log("guardado datos", datosAcorroborar)
+    }
     return(
         <div className="row">
         <div className="col mx-4"> 
@@ -23,16 +36,16 @@ const Main_RC = () =>{
                     <div className="col-md-10 pt-3">
                         <div className="input-group mb-3">
                             
-                            <input type="text" className="form-control" id="email" placeholder="Correo electronico"/>
+                            <input type="email" className="form-control" value={correo} placeholder="Correo electronico" onChange={ onCorreoChange }/>
                         </div>
                     </div>
                 </div>
                 <div className="row justify-content-end pt-3 pb-2 ">
                     <div className="d-grid gap-2 col-md-2 mb-2">
-                        <a className="btn btna btn-success me-md-2 fs-5" href="/Login/Login.html" role="button">Recuperar</a>
+                        <Link className="btn btna btn-success me-md-2 fs-5" to={"/"} onClick={corroborarCorreo} role="button">Recuperar</Link>
                     </div>
                     <div className="d-grid gap-2 col-md-2 mb-2 ms-3">
-                        <a className="btn btna btn-danger me-md-2 fs-5" href="/Login/Login.html" role="button">Cancelar</a>
+                        <Link className="btn btna btn-danger me-md-2 fs-5" to={"/"} role="button">Cancelar</Link>
                     </div>
                 </div>
             </div>

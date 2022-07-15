@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "../../css/INP/InicioPaciente.css"
 import imagenNav from '../../media/INP/1430453.png'
 
@@ -19,21 +20,21 @@ const Nav_INP = () =>{
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle fs-5 color_letra" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Preguntas</a>
                             <ul className="dropdown-menu">
-                              <li><a className="dropdown-item fs-5 color_letra" href="/buzon/buzon.html">Buzon privado</a></li>
+                              <li><Link className="dropdown-item fs-5 color_letra" to={"/BuzonPrivado"} >Buzon privado</Link></li>
                               <li><hr className="dropdown-divider"/></li>
-                              <li><a className="dropdown-item fs-5 color_letra" href="/bandeja/Bandeja_de_entrada.html">Bandeja publica</a></li>
+                              <li><Link className="dropdown-item fs-5 color_letra" to={"/BandejaPublica"}>Bandeja publica</Link></li>
                             </ul>
                           </li>
                           <li className="nav-item dropdown">
                               <a className="nav-link dropdown-toggle fs-5 color_letra" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Citas</a>
                               <ul className="dropdown-menu">
-                                  <li><a className="dropdown-item fs-5 color_letra" href="/CitasPaciente/misCitas.html">Mis citas</a></li>
+                                  <li><Link className="dropdown-item fs-5 color_letra" to={"/MisCitas"}>Mis citas</Link></li>
                                   <li><hr className="dropdown-divider"/></li>
-                                  <li><a className="dropdown-item fs-5 color_letra" href="/BuscarMedico/BuscarMedico.html">Agendar citas</a></li>
+                                  <li><Link className="dropdown-item fs-5 color_letra" to={"/BuscarMedico"}>Agendar citas</Link></li>
                                </ul>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link fs-5" href="/EditarPerfil/Perfil.html">Editar datos</a>
+                              <Link className="nav-link fs-5" to={"/EditarPerfil"}>Editar datos</Link>
                             </li>
                     </ul>
                     <label className="form-label me-2 color_letra h5">

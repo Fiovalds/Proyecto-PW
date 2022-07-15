@@ -8,7 +8,7 @@ const CardInicioMedicoDer = () => {
               <div className="card">
                 <div>
                   <img
-                    src={require("../source/calendario-verde.jpg")}
+                    src={require("../../media/IM/calendario-verde.jpg")}
                     className="card-img"
                     height="200"
                     alt="calendario"
@@ -31,7 +31,7 @@ const CardInicioMedicoDer = () => {
               <div className="card">
                 <div>
                   <img
-                    src={require("../source/calendario.jpg")}
+                    src={require("../../media/IM/calendario.jpg")}
                     className="card-img-top"
                     height="200"
                     alt="..."
@@ -58,7 +58,7 @@ const CardInicioMedicoDer = () => {
               <div className="card">
                 <div>
                   <img
-                    src={require("../source/calendario-azul.jpg")}
+                    src={require("../../media/IM/calendario-azul.jpg")}
                     className="card-img-top"
                     height="200"
                     alt="..."
@@ -79,7 +79,7 @@ const CardInicioMedicoDer = () => {
               <div className="card">
                 <div>
                   <img
-                    src={require("../source/mujer.jpg")}
+                    src={require("../../media/IM/mujer.jpg")}
                     className="card-img-top"
                     height="200"
                     alt="..."

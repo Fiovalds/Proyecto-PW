@@ -1,5 +1,6 @@
 import "../../css/REP/RegistroPaciente.css"
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Main_REP = () =>{
     const [nombrePaciente, setNombrePaciente] = React.useState("")
@@ -121,10 +122,10 @@ const Main_REP = () =>{
         </div>
         <div className="row align-items-center justify-content-center pt-5 pb-2" >
             <div className="d-grid gap-2 col-sm-2 mb-3 ">
-                <a className="btn btn-success" /* href="/Login/Login.html" */  onClick={ registrarPacienteOnClick} role="button">Registrar</a>
+                <Link className="btn btn-success" to={"/"} onClick={ registrarPacienteOnClick} role="button">Registrar</Link>
             </div>
             <div className="d-grid gap-2 col-sm-2 mb-3">
-                <a className="btn btn-danger "  href="/Login/Login.html" role="button">Cancelar</a>
+                <Link className="btn btn-danger "  to={"/"} role="button">Cancelar</Link>
             </div>
         </div>
     </div>

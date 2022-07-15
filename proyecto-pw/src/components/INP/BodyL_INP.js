@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "../../css/INP/InicioPaciente.css"
 import imagenPerfil from '../../media/INP/1430453.png'
 import RadioEspecialidad_INP from "./RadioEspecialidad_INP"
@@ -47,7 +48,7 @@ const BodyL_INP = () =>{
                     </div>
                     <div className="row mx-auto">
                         <div className="col">
-                            <h5 className="sm-3"><a href="/HistorialCitas/HistorialCitas.html"> Historial de citas: </a> </h5>
+                            <h5 className="sm-3"><Link to="/HistorialCitas"> Historial de citas: </Link> </h5>
                             <div>Filtrar por:</div>    
                 <div className="fw-bold mt-2">Especialidad:</div>        
                 <div className="mb-5">
