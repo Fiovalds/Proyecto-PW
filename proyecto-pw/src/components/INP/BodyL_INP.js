@@ -1,9 +1,12 @@
+import React from "react"
 import { Link } from "react-router-dom"
 import "../../css/INP/InicioPaciente.css"
 import imagenPerfil from '../../media/INP/1430453.png'
-import RadioEspecialidad_INP from "./RadioEspecialidad_INP"
+import OpcionesEspecialidad_INP from "./OpcionesEspecialidad_INP"
 
 const BodyL_INP = () =>{
+
+    const [especialidadSeleccionada, setEspecialidadSeleccionada] = React.useState("0")
 
     const data = [
         {
@@ -28,12 +31,16 @@ const BodyL_INP = () =>{
         },
     ]
 
-    const radioespecialidades = data.map(item => {return(
-        <RadioEspecialidad_INP 
+    const opciones_INP = data.map(item => {return(
+        <OpcionesEspecialidad_INP 
             key = {item.id}
             item = {item}
         />
     )})
+
+    const onEspecialidadSeleccionadaChange = (evt) =>{
+        setEspecialidadSeleccionada(evt.target.value)
+    }
 
     return(
         <div className="col-sm-3  mx-4">
@@ -52,13 +59,13 @@ const BodyL_INP = () =>{
                             <div>Filtrar por:</div>    
                 <div className="fw-bold mt-2">Especialidad:</div>        
                 <div className="mb-5">
-                    <div className="form-check ">
-                        <input className="form-check-input" type="radio" name="radioEspecialidades" id="check1" />
-                        <label  className="form-check-label">
-                            Todos
-                        </label>
-                    </div>
-                    {radioespecialidades}
+                    <select value={especialidadSeleccionada} className="form-select"  onChange={onEspecialidadSeleccionadaChange}>
+                        
+                        <option value={"0"}>Todas</option>
+                        {opciones_INP}
+                    </select>
+                    
+                   
                 </div>
                         </div>
                     </div>
